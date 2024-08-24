@@ -1,0 +1,2144 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Healthcare Data' inline='true' name='federated.1ti2hdv0mtp7131aldt251ohksta' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Healthcare Data' name='textscan.080tjev1vn5hlu17xujp61cmyj28'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/nelso/Desktop/data science upgrad/Milestone 7/capstone project - Mne/Healthcare Data.csv' dataRefreshTime='' directory='C:/Users/nelso/Desktop/data science upgrad/Milestone 7/capstone project - Mne' filename='C:/Users/nelso/AppData/Local/Temp/TableauTemp/11k6ed20sriqx11dxwlsk1ps65wm/Healthcare Data.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.080tjev1vn5hlu17xujp61cmyj28' name='Healthcare Data.csv' table='[Healthcare Data#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:I769:no:A1:I769:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Blood Pressure Systolic' ordinal='2' />
+            <column datatype='real' name='BMI' ordinal='3' />
+            <column datatype='real' name='Diabetes Pedigree Function' ordinal='4' />
+            <column datatype='integer' name='Glucose' ordinal='5' />
+            <column datatype='integer' name='Insulin' ordinal='6' />
+            <column datatype='integer' name='Outcome' ordinal='7' />
+            <column datatype='integer' name='Skin Thickness' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.080tjev1vn5hlu17xujp61cmyj28' name='Healthcare Data.csv' table='[Healthcare Data#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:I769:no:A1:I769:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Blood Pressure Systolic' ordinal='2' />
+            <column datatype='real' name='BMI' ordinal='3' />
+            <column datatype='real' name='Diabetes Pedigree Function' ordinal='4' />
+            <column datatype='integer' name='Glucose' ordinal='5' />
+            <column datatype='integer' name='Insulin' ordinal='6' />
+            <column datatype='integer' name='Outcome' ordinal='7' />
+            <column datatype='integer' name='Skin Thickness' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I769:no:A1:I769:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>6144</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blood Pressure Systolic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Blood Pressure Systolic]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>Blood Pressure Systolic</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BMI]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>BMI</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diabetes Pedigree Function</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Diabetes Pedigree Function]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>Diabetes Pedigree Function</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Glucose</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Glucose]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>Glucose</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insulin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Insulin]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>Insulin</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Outcome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Outcome]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>Outcome</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Skin Thickness</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Skin Thickness]</local-name>
+            <parent-name>[Healthcare Data.csv]</parent-name>
+            <remote-alias>Skin Thickness</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+        <aliases>
+          <alias key='4' value='20-24' />
+          <alias key='5' value='25-29' />
+          <alias key='6' value='30-34' />
+          <alias key='7' value='35-39' />
+          <alias key='8' value='40-44' />
+          <alias key='9' value='45-49' />
+          <alias key='10' value='50-54' />
+          <alias key='11' value='55-59' />
+          <alias key='12' value='60-64' />
+          <alias key='13' value='65-69' />
+          <alias key='14' value='70-74' />
+          <alias key='16' value='75+' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column datatype='real' name='[BMI]' role='measure' type='quantitative' />
+      <column caption='Types' datatype='string' name='[Calculation_2138928401037606912]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Outcome] = 0 THEN &quot;Non-diabetic&quot;&#13;&#10;ELSEIF [Outcome]=1 THEN &quot;Diabetic&quot;&#13;&#10;END' />
+      </column>
+      <column caption='% of dia and non dia' datatype='real' name='[Calculation_2138928401039519745]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Outcome])/TOTAL(COUNT([Outcome]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='% Count' datatype='real' name='[Calculation_2138928401082380291]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([ID])/TOTAL(COUNT([ID]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='BMI Calculation' datatype='string' name='[Calculation_2138928401095311364]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [BMI]&lt;18.5 THEN &quot;Underweight&quot;&#13;&#10;ELSEIF [BMI]&gt;=18.5 AND [BMI]&lt;25 THEN &quot;Healthy Weight&quot;&#13;&#10;ELSEIF [BMI]&gt;=25 AND [BMI]&lt;30 THEN &quot;Overweight&quot;&#13;&#10;ELSEIF [BMI]&gt;=30 THEN &quot;Obese&quot;&#13;&#10;END' />
+      </column>
+      <column caption='% BMI' datatype='real' name='[Calculation_2138928401097273349]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([BMI])/TOTAL(SUM([BMI]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Highlight' datatype='boolean' name='[Calculation_2138928401110740998]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF  [Calculation_2138928401037606912]=&quot;Diabetic&quot; THEN&#13;&#10;    IF [Blood Pressure Systolic]=&quot;High&quot; or [Blood Pressure Systolic]=&quot;Low&quot; then&#13;&#10;        TRUE end&#13;&#10;END' />
+      </column>
+      <column caption='Calculation1' datatype='integer' name='[Calculation_2138928401119399943]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='max(1)' />
+      </column>
+      <column datatype='real' name='[Diabetes Pedigree Function]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Glucose]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Insulin]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Outcome]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Skin Thickness]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Healthcare Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[BMI]' derivation='Avg' name='[avg:BMI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Glucose]' derivation='Avg' name='[avg:Glucose:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Insulin]' derivation='Avg' name='[avg:Insulin:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Skin Thickness]' derivation='Avg' name='[avg:Skin Thickness:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_2138928401037606912]' derivation='None' name='[none:Calculation_2138928401037606912:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_2138928401095311364]' derivation='None' name='[none:Calculation_2138928401095311364:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_2138928401110740998]' derivation='None' name='[none:Calculation_2138928401110740998:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[BMI]' derivation='Sum' name='[sum:BMI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Diabetes Pedigree Function]' derivation='Sum' name='[sum:Diabetes Pedigree Function:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Glucose]' derivation='Sum' name='[sum:Glucose:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Insulin]' derivation='Sum' name='[sum:Insulin:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Outcome]' derivation='Sum' name='[sum:Outcome:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Skin Thickness]' derivation='Sum' name='[sum:Skin Thickness:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2138928401039519745]' derivation='User' name='[usr:Calculation_2138928401039519745:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]' ordering-type='Field' />
+      </column-instance>
+      <column-instance column='[Calculation_2138928401039519745]' derivation='User' name='[usr:Calculation_2138928401039519745:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_2138928401082380291]' derivation='User' name='[usr:Calculation_2138928401082380291:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]' ordering-type='Field' />
+      </column-instance>
+      <column-instance column='[Calculation_2138928401082380291]' derivation='User' name='[usr:Calculation_2138928401082380291:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_2138928401097273349]' derivation='User' name='[usr:Calculation_2138928401097273349:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]' ordering-type='Field' />
+      </column-instance>
+      <column-instance column='[Calculation_2138928401097273349]' derivation='User' name='[usr:Calculation_2138928401097273349:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <group caption='Action (Age (bin))' hidden='true' name='[Action (Age (bin))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Age (bin)]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1heq64t1pgl8o61f35z600ua61mt.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/21/2024 10:46:35 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>768</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Blood Pressure Systolic</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Blood Pressure Systolic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Blood Pressure Systolic</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BMI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[BMI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BMI</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>251</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Diabetes Pedigree Function</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Diabetes Pedigree Function]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Diabetes Pedigree Function</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>517</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Glucose</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Glucose]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Glucose</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>136</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Insulin</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Insulin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Insulin</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>186</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Outcome</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Outcome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Outcome</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Skin Thickness</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Skin Thickness]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Skin Thickness</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Healthcare Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_2138928401037606912:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;0&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Non-diabetic&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Diabetic&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:Calculation_2138928401037606912:nk]' type='shape'>
+            <map to=':custom/Patient.png'>
+              <bucket>&quot;0&quot;</bucket>
+            </map>
+            <map to=':custom/Patient.png'>
+              <bucket>&quot;1&quot;</bucket>
+            </map>
+            <map to='Hospital/Patient.png'>
+              <bucket>&quot;Diabetic&quot;</bucket>
+            </map>
+            <map to='Hospital/Patient.png'>
+              <bucket>&quot;Non-diabetic&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_2138928401095311364:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Underweight&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Healthy Weight&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Obese&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Overweight&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_2138928401110740998:nk]' type='palette'>
+            <map to='#95cecf'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>true</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[sum:BMI:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401097273349:qk:1]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[sum:Insulin:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[__tableau_internal_object_id__].[cnt:Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:Glucose:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401082380291:qk:1]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401082380291:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:Insulin:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[sum:Outcome:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[sum:Skin Thickness:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[sum:Diabetes Pedigree Function:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:Skin Thickness:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk:2]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401097273349:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[sum:Glucose:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[sum:Age:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Healthcare Data.csv' id='Healthcare Data.csv_B76806004E9F4F87ACB3AAC9E72D715D'>
+            <properties context=''>
+              <relation connection='textscan.080tjev1vn5hlu17xujp61cmyj28' name='Healthcare Data.csv' table='[Healthcare Data#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:I769:no:A1:I769:1' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='ID' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='string' name='Blood Pressure Systolic' ordinal='2' />
+                  <column datatype='real' name='BMI' ordinal='3' />
+                  <column datatype='real' name='Diabetes Pedigree Function' ordinal='4' />
+                  <column datatype='integer' name='Glucose' ordinal='5' />
+                  <column datatype='integer' name='Insulin' ordinal='6' />
+                  <column datatype='integer' name='Outcome' ordinal='7' />
+                  <column datatype='integer' name='Skin Thickness' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight1' name='[Action1_200352CDA3FE4E9C8AD49915EFBA217D]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+    <action caption='Highlight2' name='[Action2_E07AFBBF36DB4A629CD4B5ADFF7C8467]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Sheet 2' />
+      </command>
+    </action>
+    <action caption='Highlight3' name='[Action3_10E54A08183743569A4DE404A621D8BF]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Sheet 3' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action4_D1B153359EE547C0A5540B957B061D71]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Diabetic vs. Non-diabetic</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Healthcare Data' name='federated.1ti2hdv0mtp7131aldt251ohksta' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ti2hdv0mtp7131aldt251ohksta'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+              <aliases>
+                <alias key='4' value='20-24' />
+                <alias key='5' value='25-29' />
+                <alias key='6' value='30-34' />
+                <alias key='7' value='35-39' />
+                <alias key='8' value='40-44' />
+                <alias key='9' value='45-49' />
+                <alias key='10' value='50-54' />
+                <alias key='11' value='55-59' />
+                <alias key='12' value='60-64' />
+                <alias key='13' value='65-69' />
+                <alias key='14' value='70-74' />
+                <alias key='16' value='75+' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Types' datatype='string' name='[Calculation_2138928401037606912]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Outcome] = 0 THEN &quot;Non-diabetic&quot;&#13;&#10;ELSEIF [Outcome]=1 THEN &quot;Diabetic&quot;&#13;&#10;END' />
+            </column>
+            <column caption='% of dia and non dia' datatype='real' name='[Calculation_2138928401039519745]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Outcome])/TOTAL(COUNT([Outcome]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Calculation1' datatype='integer' name='[Calculation_2138928401119399943]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='max(1)' />
+            </column>
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Outcome]' role='measure' type='quantitative' />
+            <column-instance column='[ID]' derivation='CountD' name='[ctd:ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2138928401037606912]' derivation='None' name='[none:Calculation_2138928401037606912:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2138928401039519745]' derivation='User' name='[usr:Calculation_2138928401039519745:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_2138928401119399943]' derivation='User' name='[usr:Calculation_2138928401119399943:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]'>
+            <groupfilter function='level-members' level='[Age (bin)]' user:ui-action-filter='[Action4_D1B153359EE547C0A5540B957B061D71]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Diabetic&quot;</bucket>
+              <bucket>&quot;Non-diabetic&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk:1]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk:1]' field-type='quantitative' max='0.7742248293905255' min='0.017184545219073519' range-type='fixed' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401119399943:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk:1]' value='p0.00%' />
+            <format attr='text-align' value='left' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00ffff' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' value='Types'>
+              <formatted-text>
+                <run>Types</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' />
+              <shape column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' />
+              <tooltip column='[federated.1ti2hdv0mtp7131aldt251ohksta].[ctd:ID:qk]' />
+              <text column='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk:1]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#818b91'>Count: </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[ctd:ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='14.547999382019043' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401119399943:qk]</rows>
+        <cols>[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk:1]</cols>
+      </table>
+      <simple-id uuid='{EB54C668-B385-442F-9DAA-19BB202930AC}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Blood Pressure Category</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Healthcare Data' name='federated.1ti2hdv0mtp7131aldt251ohksta' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ti2hdv0mtp7131aldt251ohksta'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+              <aliases>
+                <alias key='4' value='20-24' />
+                <alias key='5' value='25-29' />
+                <alias key='6' value='30-34' />
+                <alias key='7' value='35-39' />
+                <alias key='8' value='40-44' />
+                <alias key='9' value='45-49' />
+                <alias key='10' value='50-54' />
+                <alias key='11' value='55-59' />
+                <alias key='12' value='60-64' />
+                <alias key='13' value='65-69' />
+                <alias key='14' value='70-74' />
+                <alias key='16' value='75+' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Blood Pressure Systolic]' role='dimension' type='nominal' />
+            <column caption='% of dia and non dia' datatype='real' name='[Calculation_2138928401039519745]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Outcome])/TOTAL(COUNT([Outcome]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Outcome]' role='measure' type='quantitative' />
+            <column-instance column='[Blood Pressure Systolic]' derivation='Count' name='[cnt:Blood Pressure Systolic:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Blood Pressure Systolic]' derivation='None' name='[none:Blood Pressure Systolic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2138928401039519745]' derivation='User' name='[usr:Calculation_2138928401039519745:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]'>
+            <groupfilter function='level-members' level='[Age (bin)]' user:ui-action-filter='[Action4_D1B153359EE547C0A5540B957B061D71]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='vertical-align' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='bottom' />
+            <format attr='text-align' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='center' />
+            <format attr='font-family' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='Tableau Bold' />
+            <format attr='font-size' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='16' />
+            <format attr='font-family' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:Blood Pressure Systolic:ok]' value='Tableau Bold' />
+            <format attr='font-size' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:Blood Pressure Systolic:ok]' value='16' />
+            <format attr='vertical-align' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:Blood Pressure Systolic:ok]' value='bottom' />
+            <format attr='text-align' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:Blood Pressure Systolic:ok]' value='right' />
+            <format attr='vertical-align' value='bottom' />
+            <format attr='text-align' value='center' />
+            <format attr='text-format' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk]' value='p0.00%' />
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='false' />
+            <format attr='font-size' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='24' />
+            <format attr='font-family' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='Tableau Bold' />
+            <format attr='vertical-align' scope='cols' value='bottom' />
+            <format attr='text-align' scope='cols' value='right' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='14' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00ffff' />
+            <format attr='border-color' value='#818b91' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' />
+              <tooltip column='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk]' />
+              <text column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' />
+              <text column='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:Blood Pressure Systolic:ok]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Blood Pressure: </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Patient Count:&#9;</run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:Blood Pressure Systolic:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#818b91'>Percentage according to the count: </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='shape' value='Hospital/monitoring.png' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]</cols>
+      </table>
+      <simple-id uuid='{34CD9F41-6890-4C14-B66E-30FDD9939AB9}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Book' fontsize='14'>BMI by Age group</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Healthcare Data' name='federated.1ti2hdv0mtp7131aldt251ohksta' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ti2hdv0mtp7131aldt251ohksta'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+              <aliases>
+                <alias key='4' value='20-24' />
+                <alias key='5' value='25-29' />
+                <alias key='6' value='30-34' />
+                <alias key='7' value='35-39' />
+                <alias key='8' value='40-44' />
+                <alias key='9' value='45-49' />
+                <alias key='10' value='50-54' />
+                <alias key='11' value='55-59' />
+                <alias key='12' value='60-64' />
+                <alias key='13' value='65-69' />
+                <alias key='14' value='70-74' />
+                <alias key='16' value='75+' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='real' name='[BMI]' role='measure' type='quantitative' />
+            <column-instance column='[BMI]' derivation='Avg' name='[avg:BMI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Age (bin):ok]' />
+              <groupfilter function='member' level='[none:Age (bin):ok]' member='15' />
+            </groupfilter>
+          </filter>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]' value='-90' />
+            <format attr='text-format' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00ffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' />
+              <text column='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Age :&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. BMI:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]</rows>
+        <cols>[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.1ti2hdv0mtp7131aldt251ohksta].[Age (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{FA62FF32-FE8E-4930-9140-6EA04E460435}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>BMI Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Healthcare Data' name='federated.1ti2hdv0mtp7131aldt251ohksta' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ti2hdv0mtp7131aldt251ohksta'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+              <aliases>
+                <alias key='4' value='20-24' />
+                <alias key='5' value='25-29' />
+                <alias key='6' value='30-34' />
+                <alias key='7' value='35-39' />
+                <alias key='8' value='40-44' />
+                <alias key='9' value='45-49' />
+                <alias key='10' value='50-54' />
+                <alias key='11' value='55-59' />
+                <alias key='12' value='60-64' />
+                <alias key='13' value='65-69' />
+                <alias key='14' value='70-74' />
+                <alias key='16' value='75+' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='real' name='[BMI]' role='measure' type='quantitative' />
+            <column caption='BMI Calculation' datatype='string' name='[Calculation_2138928401095311364]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [BMI]&lt;18.5 THEN &quot;Underweight&quot;&#13;&#10;ELSEIF [BMI]&gt;=18.5 AND [BMI]&lt;25 THEN &quot;Healthy Weight&quot;&#13;&#10;ELSEIF [BMI]&gt;=25 AND [BMI]&lt;30 THEN &quot;Overweight&quot;&#13;&#10;ELSEIF [BMI]&gt;=30 THEN &quot;Obese&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_2138928401095311364]' derivation='None' name='[none:Calculation_2138928401095311364:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ID]' derivation='Sum' name='[pcto:sum:ID:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]'>
+            <groupfilter function='level-members' level='[Age (bin)]' user:ui-action-filter='[Action4_D1B153359EE547C0A5540B957B061D71]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[pcto:sum:ID:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' value='44' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401095311364:nk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' data-class='subtotal' value='solid' />
+            <format attr='border-color' data-class='subtotal' value='#000000' />
+            <format attr='border-width' data-class='subtotal' value='2' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#1b1b1b' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00ffff' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401095311364:nk]' value='BMI Weights'>
+              <formatted-text>
+                <run>BMI Weights</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401095311364:nk]' />
+              <text column='[federated.1ti2hdv0mtp7131aldt251ohksta].[pcto:sum:ID:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>BMI Type:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401095311364:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Percentage of total BMI:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[pcto:sum:ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1ti2hdv0mtp7131aldt251ohksta].[pcto:sum:ID:qk]</cols>
+      </table>
+      <simple-id uuid='{521A99C1-2AB0-4935-B8A3-05024B5F9400}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Healthcare Data' name='federated.1ti2hdv0mtp7131aldt251ohksta' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ti2hdv0mtp7131aldt251ohksta'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+              <aliases>
+                <alias key='4' value='20-24' />
+                <alias key='5' value='25-29' />
+                <alias key='6' value='30-34' />
+                <alias key='7' value='35-39' />
+                <alias key='8' value='40-44' />
+                <alias key='9' value='45-49' />
+                <alias key='10' value='50-54' />
+                <alias key='11' value='55-59' />
+                <alias key='12' value='60-64' />
+                <alias key='13' value='65-69' />
+                <alias key='14' value='70-74' />
+                <alias key='16' value='75+' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Blood Pressure Systolic]' role='dimension' type='nominal' />
+            <column caption='Types' datatype='string' name='[Calculation_2138928401037606912]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Outcome] = 0 THEN &quot;Non-diabetic&quot;&#13;&#10;ELSEIF [Outcome]=1 THEN &quot;Diabetic&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Highlight' datatype='boolean' name='[Calculation_2138928401110740998]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF  [Calculation_2138928401037606912]=&quot;Diabetic&quot; THEN&#13;&#10;    IF [Blood Pressure Systolic]=&quot;High&quot; or [Blood Pressure Systolic]=&quot;Low&quot; then&#13;&#10;        TRUE end&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Outcome]' role='measure' type='quantitative' />
+            <column-instance column='[ID]' derivation='Count' name='[cnt:ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Blood Pressure Systolic]' derivation='None' name='[none:Blood Pressure Systolic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2138928401037606912]' derivation='None' name='[none:Calculation_2138928401037606912:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2138928401110740998]' derivation='None' name='[none:Calculation_2138928401110740998:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]'>
+            <groupfilter function='level-members' level='[Age (bin)]' user:ui-action-filter='[Action4_D1B153359EE547C0A5540B957B061D71]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ti2hdv0mtp7131aldt251ohksta].[Action (Age (bin))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:ID:qk]' value='15' />
+            <format attr='display' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:ID:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]' value='53' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401110740998:nk]' />
+              <text column='[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:ID:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Blood Pressure Systolic:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Type:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of ID:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk] / [federated.1ti2hdv0mtp7131aldt251ohksta].[none:Blood Pressure Systolic:nk])</rows>
+        <cols>[federated.1ti2hdv0mtp7131aldt251ohksta].[cnt:ID:qk]</cols>
+      </table>
+      <simple-id uuid='{8F4AB7B5-8846-4937-973C-6A4C8C1E3EE1}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Healthcare Data' name='federated.1ti2hdv0mtp7131aldt251ohksta' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ti2hdv0mtp7131aldt251ohksta'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+              <aliases>
+                <alias key='4' value='20-24' />
+                <alias key='5' value='25-29' />
+                <alias key='6' value='30-34' />
+                <alias key='7' value='35-39' />
+                <alias key='8' value='40-44' />
+                <alias key='9' value='45-49' />
+                <alias key='10' value='50-54' />
+                <alias key='11' value='55-59' />
+                <alias key='12' value='60-64' />
+                <alias key='13' value='65-69' />
+                <alias key='14' value='70-74' />
+                <alias key='16' value='75+' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='real' name='[BMI]' role='measure' type='quantitative' />
+            <column caption='Calculation1' datatype='integer' name='[Calculation_2138928401119399943]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='max(1)' />
+            </column>
+            <column datatype='integer' name='[Glucose]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Insulin]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Skin Thickness]' role='measure' type='quantitative' />
+            <column-instance column='[BMI]' derivation='Avg' name='[avg:BMI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Glucose]' derivation='Avg' name='[avg:Glucose:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Insulin]' derivation='Avg' name='[avg:Insulin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Skin Thickness]' derivation='Avg' name='[avg:Skin Thickness:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2138928401119399943]' derivation='User' name='[usr:Calculation_2138928401119399943:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ti2hdv0mtp7131aldt251ohksta].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:Glucose:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:Insulin:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:Skin Thickness:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ti2hdv0mtp7131aldt251ohksta].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[:Measure Names]' value='104' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[Multiple Values]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1ti2hdv0mtp7131aldt251ohksta].[Multiple Values]' />
+              <size column='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401119399943:qk]' />
+              <text column='[federated.1ti2hdv0mtp7131aldt251ohksta].[Multiple Values]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Age :&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[:Measure Names]>:	]]></run>
+                <run bold='true'><![CDATA[<[federated.1ti2hdv0mtp7131aldt251ohksta].[Multiple Values]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='Tableau Bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='4.0442090034484863' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ti2hdv0mtp7131aldt251ohksta].[:Measure Names]</rows>
+        <cols>[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Age (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{1CDA1844-F3AB-4018-8FA3-01B96290C006}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='34831' id='8' param='horz' type-v2='layout-flow' w='98430' x='785' y='1623'>
+            <zone h='34831' id='6' type-v2='layout-basic' w='98430' x='785' y='1623'>
+              <zone h='34831' id='13' param='vert' type-v2='layout-flow' w='98430' x='785' y='1623'>
+                <zone fixed-size='28' h='4495' id='3' is-fixed='true' type-v2='text' w='98430' x='785' y='1623'>
+                  <formatted-text>
+                    <run fontalignment='1' fontname='Tableau Bold' fontsize='15'>Healthcare Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#00ffff' />
+                  </zone-style>
+                </zone>
+                <zone h='30336' id='12' param='horz' type-v2='layout-flow' w='98430' x='785' y='6118'>
+                  <zone fixed-size='642' h='30336' id='5' is-fixed='true' name='Sheet 1' w='39228' x='785' y='6118'>
+                    <layout-cache minheight='150' minwidth='100' type-h='scalable' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='30336' id='11' name='Sheet 2' w='59200' x='40013' y='6118'>
+                    <layout-cache cell-count-h='1' cell-count-w='4' non-cell-size-h='50' type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='11361' id='22' param='horz' type-v2='layout-flow' w='98430' x='785' y='36454'>
+            <zone h='11361' id='14' name='Sheet 4' w='88291' x='785' y='36454'>
+              <layout-cache fixed-size-h='94' minwidth='101' type-h='fixed' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='11361' id='15' name='Sheet 4' pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401095311364:nk]' show-title='false' type-v2='color' w='10139' x='89076' y='36454'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+                <format attr='background-color' value='#ffffff' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='50562' id='23' param='horz' type-v2='layout-flow' w='98430' x='785' y='47815'>
+            <zone h='50562' id='17' name='Sheet 3' w='43452' x='785' y='47815'>
+              <layout-cache cell-count-w='12' minheight='188' type-h='scalable' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='50562' id='19' name='Sheet 5' show-title='false' w='54978' x='44237' y='47815'>
+              <layout-cache minwidth='281' type-h='fixed' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#121212' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+            <format attr='margin' value='8' />
+            <format attr='background-color' value='#cecece' />
+          </zone-style>
+        </zone>
+        <zone h='6117' id='18' name='Sheet 3' pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' show-title='false' type-v2='color' w='10320' x='32951' y='55431' />
+        <zone h='7990' id='10' name='Sheet 1' pane-specification-id='2' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' type-v2='color' w='8449' x='3018' y='17104' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='26' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone fixed-size='28' h='4495' id='3' type-v2='text' w='98430' x='785' y='1623'>
+                  <formatted-text>
+                    <run fontalignment='1' fontname='Tableau Bold' fontsize='15'>Healthcare Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#00ffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='235' h='30336' id='5' is-fixed='true' name='Sheet 1' w='39228' x='785' y='6118'>
+                  <layout-cache minheight='150' minwidth='100' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7990' id='10' name='Sheet 1' pane-specification-id='2' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' type-v2='color' w='8449' x='3018' y='17104'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='235' h='30336' id='11' is-fixed='true' name='Sheet 2' w='59200' x='40013' y='6118'>
+                  <layout-cache cell-count-w='4' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='83' h='11361' id='14' is-fixed='true' name='Sheet 4' w='88291' x='785' y='36454'>
+                  <layout-cache fixed-size-h='94' minwidth='101' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11361' id='15' name='Sheet 4' pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401095311364:nk]' show-title='false' type-v2='color' w='10139' x='89076' y='36454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50562' id='17' is-fixed='true' name='Sheet 3' w='43452' x='785' y='47815'>
+                  <layout-cache cell-count-w='12' minheight='188' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6117' id='18' name='Sheet 3' pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' show-title='false' type-v2='color' w='10320' x='32951' y='55431'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50562' id='19' is-fixed='true' name='Sheet 5' show-title='false' w='54978' x='44237' y='47815'>
+                  <layout-cache minwidth='281' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#121212' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='5' />
+                <format attr='margin' value='8' />
+                <format attr='background-color' value='#cecece' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C7DF9D29-C40F-4010-AFBE-6A5850FEEBE9}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98002' id='3' is-scaled='1' param='Image/picture.jpg' type-v2='bitmap' w='99034' x='483' y='999'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='7' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone fixed-size='280' forceUpdate='true' h='98002' id='3' is-fixed='true' is-scaled='1' param='Image/picture.jpg' type-v2='bitmap' w='99034' x='483' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AFD37452-EC04-4943-9010-9F8956810FD9}' />
+    </dashboard>
+    <dashboard name='Healthcare' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Healthcare Summary report</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='317' />
+        </style-rule>
+      </style>
+      <size maxheight='1050' maxwidth='1500' minheight='1050' minwidth='1500' preset-index='17' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98476' id='1' param='vert' removable='false' type-v2='layout-flow' w='98934' x='533' y='762'>
+            <zone h='4000' id='3' type-v2='title' w='98934' x='533' y='762' />
+            <zone fixed-size='117' h='11143' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98934' x='533' y='4762' />
+            <zone h='83333' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98934' x='533' y='15905'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='To keep the body in good health is a duty, otherwise we shall not be able to keep our mind strong and clear' captured-sheet='Dashboard 2' id='1' />
+                  <story-point caption='People have 34.9% being diabetic compared to 65.1% non-diabetic. Lot of people have obese weight. more number of people have the blood pressure problem' captured-sheet='Dashboard 1' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='Sheet 1'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401119399943:qk]' field-type='quantitative' max='2' min='0' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.1ti2hdv0mtp7131aldt251ohksta].[usr:Calculation_2138928401039519745:qk:1]' field-type='quantitative' max='0.75816335777096278' min='0.055971290513123648' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='BMI and glucose levels slowly increase as age increases and start to decrease. Skin thickness also increases with age. The insulin level increases in some age groups and starts to decrease at a certain age, exhibiting different patterns.' captured-sheet='Sheet 6' id='3' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{0599085C-E27F-46CE-948E-F53EFB1144DA}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='2' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401037606912:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{B9A543C3-22EB-43CF-9C34-F076E10536C4}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9EABBB6C-56BA-4CC5-AA36-E87C39F478A1}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[avg:BMI:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{E63A8216-3CB2-415F-9332-52CA813D5ABD}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401095311364:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E87A34D8-E947-449D-8E8F-3F3F214E0AF1}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[none:Calculation_2138928401110740998:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3AF5066E-DAAF-43E8-AF52-939A4F810105}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ti2hdv0mtp7131aldt251ohksta].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{85E19279-BA8A-4830-A89F-A717C82C764F}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4' />
+        <viewpoint name='Sheet 5' />
+      </viewpoints>
+      <active id='4' />
+      <simple-id uuid='{6FA26BBD-B380-477B-8F1B-ACF1E5A73176}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{4E0A5BE5-8271-436C-8174-48A91793E902}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Healthcare'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{673F7C8A-D47D-401D-A56C-647FCC21C8CD}' />
+    </window>
+  </windows>
+  <external>
+    <shapes>
+      <shape name='Hospital/Patient.png'>
+        iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAA4WlDQ1BzUkdCAAAYlWNgYDzN
+        AARMDgwMuXklRUHuTgoRkVEKDEggMbm4gAE3YGRg+HYNRDIwXNYNLGHlx6MWG+AsAloIpD8A
+        sUg6mM3IAmInQdgSIHZ5SUEJkK0DYicXFIHYQBcz8BSFBDkD2T5AtkI6EjsJiZ2SWpwMZOcA
+        2fEIv+XPZ2Cw+MLAwDwRIZY0jYFhezsDg8QdhJjKQgYG/lYGhm2XEWKf/cH+ZRQ7VJJaUQIS
+        8dN3ZChILEoESzODAjQtjYHh03IGBt5IBgbhCwwMXNEQd4ABazEwoEkMJ0IAAHLYNoSjH0ez
+        AAAACXBIWXMAACHVAAAh1QEEnLSdAAAYoUlEQVR4nO2debRdVX3HP29IQsIgSFVAlEELiBap
+        4ITQAGZ6GdEoCYEkyIxSqmirUBXUjk5dWrVa7FJwAMU6tkUtWIcutaKIDBpi5pfhvZfpvYQQ
+        hCSvf3zfIS/3nb33Ofuee88dfp+19oL17rn7nHuyh+/+7d/vt8EwDMMwDMMwDMMwDMMwDMMw
+        jFalowZ1HgwcBHQBnTWov1XZAwwBT1X8vRs4DBhf8fd9I9f/ofaPVjoHj5RO9LsfBx4rouLu
+        IioBxgFHAscCVwCvAJ4DTBr5zAjzIPA24P8q/n488M/AORV/3wC8Gbi35k9WLscANwM9wBHA
+        IHAP8A/AoyU+19M8H/3DbQV2ox46bCV3eQg4K+X9ngz8JOX6PmC649+kVZgCrCa9TQ2iTlEV
+        1cwAk4BXAd8c+f+uah+mzdmD/mErGR75rJKnHNe3Cq8BPgsc5/j8GcDXgDPQTBD1LmI1+rPQ
+        FPSfwKFY4zeKZRrwJdyNP2ESUh+HxN4opgM8C/h74Dq02DWMIpmJf+RPu/6w2JvllUDjgHcD
+        l1EbC9JonkQ6t9WYgBZzlVYdQ7Lnk8DzcnznWVQh5fN8sQNZIq6i9o0f4AHGWj5agVcCHwdO
+        L/tBGowZwKfJPvIn9DPWdJyZPB3gecC3qZ/s2YdmgVbjCfTbjP30oMb//IjvfgfYGXvjrB2g
+        G5iPNiOysA/YjMyiABPRPkHeGacV6aJ1f1sMZyPZE9P4+4APUkUHyLoIPgJp/yysB74AzAFe
+        DJwKzAX+ldbU9EYcHWjk/yJwQsT3+4AlwLpqHiLLiNyBdFnI1DQM/GrkoZZxoF32F8B9wOeA
+        u9DuptHeJLInz4I3YRNwMfA/1T5Elg4wCbk3hFwaNgBLgd85Ph8Gfgm8AfgR2eVUJROB56b8
+        /XFgY8rfDwaOTvn7LvQi064/irEyZRdacFXq90nAsxn7LncDA1SxQIukE7mhxL7fotiD3tdu
+        x+c3Etf4+1E7q7rxZ+VINLL7tvH3AJ/PWN9E4AOB+oaBnzu+fw6wN6V813H9LMf1X3dcPxst
+        VCuv/w6SgpVMAdakXH8vcmOo5FXA/Yz9vb8GXp1y/UnoH7vy+l60YVTJ4chYkfab61m2ALeM
+        PE8aN6NBJY+7yEZkLSqMLGuALjQi+tgCfCLjPXcDX8l4bRqdjuKaoWKuH5/z+nGO68ta7KY9
+        T73LkaiRX0X6nsc30WielX4ke1wDXRRZOkAnmuZ97AYeqf5xMuHy+dhb4PVpvje+69M+2+u5
+        d61xPWsZ3AickvL3R8huvRmgRrInqxWoaL/+VnbiMg7kKdL3PRIPzxB9wKXA9wp8pqfJ0rD3
+        EQ4+mAScluO+1XihuhzvXBt0MdenyZ2DSJc0XaTPkBMpJyCog8bx0doLfAhYmfLZqciR0kcf
+        kj13F/xcT5OlIe5F+usYzzWHA4sZG8zhYmbG69LYCfw25e+u4Ighx/W/d1w/iIJTKt/NctKl
+        0Q7gN4xdJy1Di+l6swc9a5rlq978FLiddEvQHGQ9c9GHfM5+UIPnysXByF4bCnTZBJyZob4e
+        ZLKMtQI1O7W2AjUL9+L+t99AnX5blil6F+rFIb12FPBVFKCQZoM+CI38tyN5YLQvp+HeDN0E
+        LAK+X48HyarFVyAZFJpWTwB+DHwE7fgmdKKR/71Y4293jgHuAE5M+WwjcDnaKG0oxgNvp74x
+        siaBRCtJoBNwS59etKlYV7JaKZ5E0iVtNV8rGsmWXSSP037u0EcBL0WbX+enfL4RGVHuqedD
+        QT5z5GYUBvl16iNjDqU1g0ZOo3w/naI5Cfdm6WEobvcCx+cbkK/ZD4t/rOI5GLiV+kqhdinN
+        KoFmAWuJ+83rgNfW/5H3k3ejZhfwl9RphW40PJOBjxEXzLIBuc6XmtgrZqdyEHgjcCewvdjH
+        MZqI6Si+4wUR3+0FrqQBZE/sVv0OtEV9E9o1NdqLmcBniIvkWod8e2rm3lBvDkcbYL9Cmxhl
+        a+lmLctRfGwlpyAXk8rrt1OdS0ksk9GzxvzGXuC8+j+ymyKS4w4CF6K9gtcBC2kMP5RmYzny
+        W6rkcfYHJI1mAOVjrSc9wKeIC2ldB1xLHSO5DKNIelCi2piRfw3p9n/DaAomsz8BbYyps+47
+        vIZRFDOpbuQvY51iGIUwA1iFyR6jDTmXeNmzlsbYpTaMKGYRL3tWUcDJLYZRFtOR12+s7CnV
+        t8cwquE84mXPGlr/zDKjhTHZY7Qt01DYa0zjX43Z+Y0mZgrxssdGfqOpmU287FlJtkS1p6K1
+        xemUkyjMMFKZRrxXZxbZ86coMW6SAGAl8FbSo94Mo65U0/hXEnZvOBu3KXUbiiVplPSNRhMw
+        CUmIqWjkPZ34BjSLePeGFYRNnVNQuKOvnsfJlkXQaGMmocNAZgN/w/5jp4ZH/v+Wkc/OIduZ
+        wxNR469mwTs1cI8p6Iy4LPW9D0uSZjh4MfC3KEAm1JB2AO8hPQf/aI5EyWpjR/6Q7MnT+IfR
+        xtlJgTqNNuTVpIdAhspP0AjtSgcPcDU6zSdPvb8n7Ng2jXyNPykvDb0Mo33oQqPsg8SN0sPI
+        C3Mpfkl0FVqIFiV7zieu8f+OuIwSRgvSieKqYxeno0s/8Cb88d5vHrnOV89ywptcU1Gge8xz
+        vpvw0VtGmzCXeLOkS18vwd8J3oSC6l2NPzTyx8qeYXSgyAsD9RttQBdq/A9RXONPygZ0wopP
+        Dl3DWDm0kmyyJzYd4mqUIdtoczpQhr0iZI+rJAfM+RbGo+XQMsLWnmnEy57VwHzMJcJAI3+s
+        TT5vo1uC+5xj0EzxPbRP4GM68Y1/Ge4M0aN5ychz2EZZi9KFGsIj1L7xJyU5ecUnhw7C30le
+        i1KcxHbC0A7yWWhd8vOR7zyCEmlNDnzPaDLeQLzsWU78wnMTYTnkYirxmn8lkj1pR8wmzEAL
+        97TvJ0el+jqn0STM5UCXhryj6DRgAfEyZA3qBHkaUzWafxkwL1B/D25rVFJ2Iu9So0npAl6P
+        ziuOHUXnjKrvjYQdzlylD53IEuoEycZc7MifJVhmJtk35T5M652s0zbMJ172uNyPLyK+E2xC
+        O8Y+a8x44L7I+lcQlj1zyd74h5H0O85Tn9GgTAEeJn4UnTO2yqe5iPg1wSrCm2VXoTTseep9
+        lLDsmUFY9lSWPcAfB+o1GoyXA78kroEuw9/4Ey5EVp6YeyTWIZ8cupbsjXUVctH2MStHfZV1
+        xxzFZJTE80k/3C5L2Y5s81mpZibYSFgOXYFOCfXVsxxZuHyyZw5xjX8YuYcfkuVlGOXzPOAr
+        xP1DDwMPAK/Iec+FxK8J1iDrkE8OXYYOQ3E1/tBsNYNwJ/LNhscF34DRMPw58Y1/GPkGpR2X
+        FGIB8XKoDzVyXye4hrEj+CrCmn92yveylvWoc5n7RJPwInT6YS06wHOAE/E3hmrk0Hq0MPbJ
+        mMvZb735HTLv+phLdY3/0sDzGA1EN/B3VNf4fR3gT4CPo0bh6wQLiJdDq9FM4FsYvxP4MeHG
+        30O87EmsVCFORW4WFl3WALwS6fdadYDjkW1+IxrpfW4NC4g/tXMAdQJX/ROQP/8Ez/3nkD/8
+        MikbRp7fx2uB65GhYQDFO9+ApWkslSupvvH7OsAJwH+zf4ScH3ieRcTLoV40Asf4Ds0lvvH3
+        ohnOx0Lc7hmJjLM1Q505EbiL2neAe0Zd9zCSISE5FLswXotmmjzpS2aiETnmfquBxYH65wO7
+        A/UMIrlo1JGiRv88HSCZCS4FDvM820Li5dAKsuvreVQney4K1L8ApYHJUt8nsJjjuvJXlNMB
+        hpEsOjbwfNX4Dt2AX++DZE/sgnctigXwWXsuITzyjy59wFGBZzYK4jDgVorrAA+S3gFOBO6t
+        uHYn8HaypUq8kLiZ4AGUrMvFbOJlzyrk7+9jPkqnmKfencDRgXqNgjiHeD//tHI/6YHjJwM/
+        qrj2y8CzczzrQjQ65n0mV3KsC4gf+dcTlj0XkS1DXmXZiPZNjDpQpP4fRjb2l6Tc50zgF6Ou
+        20DcuVyLyLcwfpj0ReUfoc2wmN+4hvB+xsXkH/mTYvEDdeQtFNsB7iJ99OrhwKOMPoZ78Xsk
+        fuexC8k+E9xAejzx5cQtelcTHvnnA7si6h5G7yi0JjIK4iDkqVhkB/gQ6T45VwOPjbruCscz
+        nQ3cPvK5b2G5gHAnWAGc5vj+7RG/bT1hzb+IONkzjEygi4jbvzAiOJ24ZLa+cqPjXqPdLP6A
+        9HwaScN8FHhd4Pkvwn2YxS+R/77LLeK7OX9XYrL1dcpFxI/8g2h3ODM+zz8jGyfjHiGLZrQp
+        cgjZxCsZz37pcxKancYBXwP2pVx/x0g904DnAs9EFpR1qCPd53iW2cjxLytrgJuAOz3XvBH4
+        DHH2+z50jsInI75rVMHVFDv6r8WdoOqTo65bT/oC+FDgPyrqXI00f4gjUKcJWZUORenYs/6m
+        XsKy52LiZc8QWo8YJXAtxXaAfyN98Xoysg4l1w2QHiw/Dvh6Sr1Z5FBW3kq+MMmQi/VCDlzb
+        5ClbySl7jOJ4BrLEFNkB3ue41zUc2EiewL0GuM1R9zLCvjYh5pN9R3kNYWvPQtyRZqHSh96L
+        URKziXcvcDUYV1D5B1Kud037U9HJLmn32Ij8ZEJHKlVyODL3Zh35e5H7go/FZPftqSw7MNlT
+        OtdT7Oj/adI9L5+JFo+V138MzUJpzMCdi+hB0jfa0piALDO3AXsz/o6VhF2Sq5E9WzDZ0xC8
+        leIa/wDuheqbSD/RZT3+87tmAh8FvgX8L/AN4CPIdOvjDJQ2/V3IKrMzx+9Yh1uaJSwif76h
+        pPShnXejZCagDauiOsCX0Uifhs/R7ja06+vjGGSqzeId+Tri9zV6UYoV34K3Wtnj2vwz6swp
+        wA8opvE/jBzq0jgXv7/NDiQHiggcv4D4Nc0KwrJnAflmk8oZ0mRPA/EG4u3WleWvPff5aIbv
+        ryQcQxtiDvGRY+sIW3sWE58doh8b+RuOayim8d+D2yLzGrLnFV2BnNZisqf9Ge78/Fka/1L8
+        I/9i4kf+HZjmb0iKWAD/Bnfe+4OAz+as7wnkvhAKlq8kxqkt6XSXEJY9sTNlP3Bdzt9i1IGj
+        kA9NNY3/t7h1P0hixR5J1Af8C/Ae5GJwNkrUe4TjXt+OuEcvYdmzhPgY4QHMzt+wTCF80LSv
+        LMOfv+ZlFHd06nZk9/85kjppfCNnncmJ9D6X4yXEj/w7UGp2o0GpJgDGdeBFwrHkb5BZiyuT
+        27dy1JFF9lTr3mCyp4GZhWJ2Y/5xl+M/irQDyZY82Q/yFNfa4IsZv9+LNrF8LCU+Rngz+dLC
+        G3WmB7ePTaj8Fv+uLUhTx+r+LMXlm3M24SOcEmuPT/YspTrZc3Xg/RglMp34o47uJ9z4Z+KO
+        zCqqfAL3QngG7nSD9xHOQFeNe8MmJCstC3SDMof47AfD6LAMX7blGUge1bLxDyN9PdnzHD3A
+        LcDdqLP/F3LPfrn37SjMMdbasxX5OhkNynSqb5wbUJxvmqdnZaaHWpcvEI74eiGSRSeGXw+X
+        Er/gHcL8+RuaaRRrjryJA3PVTKM+I//oshtZWYqQGxcTL3s2omg6kz0NSrWyJ60Mok4wHuW3
+        r3fjT8pKssUI+1hKvLVnELP2NDRTqV3j3AZ8ifhT44sqv0eyLCYDw6uIt1YNoVgDy9/foExH
+        O6dlNs56lT+gBXroqKNKbkMHV+e93yak+U32NChzUPaEshtmvUsv8DmUT/NiFC55Eu7cmj+M
+        uIfF8DY4UyhPkzdS6Ufnbf0IeLXjXX0/Z53bkJ3f0hXWideTz5mqnWRPnnKB433liYTbhPz5
+        TfbUiXlogTZENkvDXOKDQVq9uJz2srqCWwxvnZnBgRp+G+GzZmdSW/+bZi4uU+kZuN0mkrIV
+        2flN9tSBDjTyP8LYf4jkzFsX41HU0uqU77Z7uRUdgpHGDNwz5yPI8c5kT52YhYI0fKORrxN0
+        obhVmwnGvrdXet7becA7UM7SPrRwfgdwluc7Rg3oIZxxYCt+OdSF3JHb0QzqK18lfNjcS5Bb
+        h+8gPaOGTERb86GcNlnSayzEFsWV5S9o0Z3bVlmg7EFOa4PIi9F1svnBI59vAX7tuGbZyOdn
+        4s672WzsGvlv7L/3i9Dg8VAxj9M4tEoHAI1UD6HG+zLch8dNRJ1gE7L9V7IPLeI2onSCobSD
+        jcYqlGbxDnTY3h3AvyMX5+dG1nk4GhCORmkTn6z+MY0YOlDuyrcErllKOMtZH3451IGinHyL
+        60YsN5E+c2WN+/WVfej0mVA6FKNG9KAGOYQSU7noQo07y8LYZx3qRtahNYF66lF2ouwNbxl5
+        Jpc7gitovYgOkJQB4PPACZ53ZxTMLA70z38Mv7vDONS4Q6bNzYStQwspzzr0JbQh1QMcP+q5
+        XJmpXR36w2gEL6oDvBP3HoFRMPNId1Tbgj+kLpFDobNws8ihWmdscBXX7/ug4/oPo0PsKjmL
+        +KD+0eVRdJqjUSem4s+WsA2/HOpGjTsUvbQFvxwah3Y3VwfqKbr8I+nH2S4gfZ2zDC1YKzkV
+        +EWVz3IXtslVV2aTLXJqJ/4Mwp3IFz0Uv7oZzRguEjlUT7fpe9AJkZUcS/o64Cl0oPa1wKeQ
+        Feir6ISY2AzNw2hmOdbzboyCmUe+bAmbUahdGhOBdwOPZ6gnJIc60UIz5AxWVOnHfXCeK3t0
+        P5oZi7j/3ShIxhUcY9SA84hLErWdsXLoEJTbJk/2gixy6GLC2dSKKHtR6hGQHf+9aES/s8b3
+        vxsZB17geQ9GDZhDdQHjow9USBp/Zbq+vSl/qywD+OVQJ9LhsakS85SHkP7+CdqEqtV9+oF/
+        QjLPGn4JzKOYUW0zOlf3XYxt6DvRkUSXE14YZ5FDl1A/OVR0GUTRXTeg8wgm495BN2rMZIqd
+        0vcwdiNsJ3AzWhN0oJki1Ak240/dl8ihemZ3iy0/RQloX48Gm/NQ8LtRMtXKnixlB2r8o0e4
+        bqSvQ/b9fvbr8DQ60WZVPeRQlvIYclm4Bc1QF6AGf6rnNxglMYfaLyb70c5l2vTehRa8IbeJ
+        kCt1F+XIoR3Az4D3IxlzAXA+clOY4HleowE4j/pYUh5DZlAX45EcCh17FNonGId2jGs5E/wM
+        +QPNRebRc9HIbo29yZiHdi3rNVIO4N8s60aNOySH+vCvCRI5VGSu/9XA21AA/4s89zaahNmU
+        E4S+GVk8XHQh61Ao131IDnUjOVSE79B6/LOO0UR0IX/+Mhp/UobwxxNMQI17U6Cezcgt2cU4
+        qnebWIksTOM99zGaiA60QCur8SdlG9nkUGhB24c/32WyWRazzlmLZpFWitoz0Ah7CbU7CTFr
+        2Yx0tYtu1LhD1qHQgc5JUE0eObQemV19xyoZTc5llD8TDCGvSRcTRp4zlG1iAH9QTR45tBI5
+        25nsaXE6UOPK4qFZy7IVf2RZF5JD6wP1ZHGbuAj/+mcdJnvajkvQQQ1ldoLN+INqxqE1QxY5
+        FPIidcmhRPbYyN+GXE65HWAYOYb5DmpO5FBoJhjAfSA1qBNcyIExxiZ72pxEDj1GuZ1gC/5O
+        kFiHQmuCrHKof+SeizHZY6CGEHP2VNGdoAg5lMWLdDbyhbKR33iaK2gMOeTbJ5iAGndonyAk
+        hwxjDB1oMbiL8mcCX8qVbtQJQjvGWRLyGsYYFlNcIqfYshW/HBqPTKhZ5NDSal6G0X4kEVuN
+        IId8I/gENGOFcoiaHDJy04l2WBvBOuRKuQKSQ5cRjicwOWREsYTyZ4Kt6KAIFxOQHMoSYxw6
+        uM8wDqATjZxlrwkG8Tu+jSdbUM0AfldqwxhDB2o0jSCHrvM8ZyKHBgL1hLxIDSOVSylfDm0D
+        rvc8YyKHQp0gFFRjGGNIDr8oe8d4kPD5w0sJW4e2YDOBkZMOZFJshM0y30yQpGb3xRgPYeZR
+        I4LEga5sObQd/5pgAu6UKxtRBzmkqjdhtC1JUquy4wmyWIeWcKB1aB2SSOYIZ1RFIocaIbLM
+        t0/QjWaCHajDXIXF/BoFkZwAU7YcGiQcYzwHZXWzTG5GoSTemWVnm9iOWXWMkuhEdvWyO8FW
+        /NYhw6gZidtE2XJoCH94pWHUjCR2t+yZYAh/ZJlRMmnnz7YCe4AvoEZ4K+WZGvchE61hlEIn
+        MjeWMfr3Ir8l2+QySqUbbULV021iI9qga9UZ1mgyOtFo/BS1b/z9aC/AdniNhqILWWVq2fgT
+        9wbb5DIakiRVeS3kUJINzmSP0dB0In2+F5M9RpvShaxDRcQYr8W8Oo0mJJFD1cQY96GOZLLH
+        aEoSL9IYOdSHUifayG80NYmffp4YYwtmMVqKLrJnoDPZY7QknYRngk2o8dvIb7QkSRaHtB3j
+        dWiWsDBGo6VJk0PJgtdkj9EWdKIG/ySSPVdissdoM7pRALt5dRptjTV+wzAMwzAMwzAMwzAM
+        wzAMwzAMwzCai/8HZ+NbElGvIf8AAAAASUVORK5CYII=
+      </shape>
+      <shape name='Hospital/monitoring.png'>
+        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
+        QedUA54AAAAASUVORK5CYII=
+      </shape>
+    </shapes>
+  </external>
+</workbook>
